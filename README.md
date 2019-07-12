@@ -5,7 +5,7 @@
 #include <stdio.h>
 void main()
 {
-	unsigned int m, s = 0, n, n2, x = 100000000, d;
+	unsigned int m, s = 0, n, x = 100000000, d;
 	printf("계좌번호를 입력하세요.\n>> ");
 	scanf_s("%d", &d);
 	do
@@ -17,6 +17,6 @@ void main()
 		x = x / 10;
 	} while (x != 0);
 
-	n2 = s % 10;
-	printf("%d", n2);
+	n = s % 10;
+	printf("%d", n);
 }
