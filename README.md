@@ -15,7 +15,7 @@ void main()
 		s += m;
 		d = n;
 		x = x / 10;
-	} while (x != 0);
+	} while ( != 0);
 
 	n = s % 10;
 	printf("%d", n);
